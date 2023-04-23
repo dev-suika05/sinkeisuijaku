@@ -1,0 +1,76 @@
+// btn ---------
+
+.c-btn {
+  &-link {
+
+  }
+}
+
+.p-geme {
+	&__content {
+  }
+
+  // start ----------
+  &__start {
+    &-title {
+    }
+    &-btn {
+      .p-in-link {
+      }
+    }
+  }
+
+  // play ----------
+  &__play {
+    &-card {
+      &-inner {
+        &-item {
+          .p-in-image {
+          }
+        }
+      }
+    }
+    &-data {
+      &-retry {
+        .p-in-link {
+        }
+      }
+      &-time {
+        &-head {
+        }
+        &-main {
+          .p-in-minutes {
+          }
+          .p-in-seconds {
+          }
+        }
+      }
+    }
+  }
+
+  // clear ----------
+  &__clear {
+    &-head {
+      .p-in-inner {
+      }
+    }
+  }
+  
+  // result ----------
+  &__result {
+    &-time {
+      &-head {
+      }
+      &-main {
+        .p-in-minutes {
+        }
+        .p-in-seconds {
+        }
+      }
+    }
+    &-btn {
+      .p-in-link {
+      }
+    }
+  }
+}
