@@ -2,7 +2,7 @@ import { defineConfig } from 'vite';
 import { resolve } from 'path';
 
 const root = resolve(__dirname, 'src');
-const outDir = resolve(__dirname, 'dist');
+const outDir = resolve(__dirname, 'docs');
 
 export default defineConfig({
 	base: './',
