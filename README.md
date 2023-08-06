@@ -1,2 +1,2 @@
-# site-template
-vite（vanilla）の開発環境
+# 神経衰弱
+vueで実装
